@@ -1,5 +1,15 @@
 ---
+# Sección que define las tareas de despliegue
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bytecommx/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    # 1. Exporta la ruta de destino a una variable
+    - export DEPLOYPATH=/home/bytelcommx/public_html
+    
+    # 2. **Opcional, pero recomendado:** Elimina archivos anteriores en public_html
+    #    Esto asegura que no queden archivos viejos y desordenados.
+    - /bin/rm -rf $DEPLOYPATH/*
+    - /bin/rm -rf $DEPLOYPATH/.*
+    
+    # 3. Copia todos los archivos y carpetas del repositorio (excepto .git) al destino
+    #    Esto es lo que hace que tu código vaya "al aire".
+    - /bin/cp -r . $DEPLOYPATH
