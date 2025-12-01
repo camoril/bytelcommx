@@ -1,12 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>ByteLcommx</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bytel | Innovación Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bytel-green': '#88B200',
+                        'bytel-dark': '#1a1a1a',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    <h1>Welcome to ByteLcommx</h1>
-    <p>Your gateway to cutting-edge technology and innovation.</p>
-
+<body class="bg-gradient-to-br from-gray-900 via-bytel-dark to-black text-white min-h-screen flex items-center justify-center">
+    <div class="text-center px-4">
+        <div class="mb-8">
+            <div class="inline-block p-4 bg-bytel-green/10 rounded-full mb-4">
+                <svg class="w-24 h-24 text-bytel-green" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+            </div>
+        </div>
+        <h1 class="text-6xl font-bold mb-4 bg-gradient-to-r from-bytel-green to-green-400 bg-clip-text text-transparent">
+            Bytel
+        </h1>
+        <p class="text-2xl text-gray-400 mb-8">Impulsando el futuro digital</p>
+        <p class="text-gray-500 max-w-md mx-auto mb-12">
+            Transformamos ideas en soluciones tecnológicas innovadoras
+        </p>
+        <div class="flex gap-4 justify-center">
+            <button class="px-8 py-3 bg-bytel-green hover:bg-green-600 text-white rounded-lg font-semibold transition transform hover:scale-105">
+                Comenzar
+            </button>
+            <button class="px-8 py-3 border-2 border-bytel-green text-bytel-green hover:bg-bytel-green hover:text-white rounded-lg font-semibold transition">
+                Saber más
+            </button>
+        </div>
+        <div class="mt-16 text-sm text-gray-600">
+            <p>&copy; 2025 Bytel. Innovación sin límites.</p>
+        </div>
+    </div>
 </body>
 </html>
