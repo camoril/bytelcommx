@@ -1,11 +1,82 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>ByteLcommx</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bytel - Soluciones tecnológicas de vanguardia para tu empresa.">
+    <meta name="keywords" content="Bytel, tecnología, innovación, soluciones TI, telecomunicaciones">
+    <meta name="author" content="Bytel">
+    <title>Bytel | Soluciones Tecnológicas</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-display {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <h1>Welcome to ByteLcommx</h1>
-    <p>Your gateway to cutting-edge technology and innovation.</p>
+<body class="bg-white text-gray-900">
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="font-display text-5xl md:text-6xl font-bold mb-4">Bytel</h1>
+            <p class="text-xl md:text-2xl text-blue-100">Soluciones tecnológicas de vanguardia para tu empresa</p>
+        </div>
+    </header>
+    
+    <main class="max-w-7xl mx-auto px-4 py-16">
+        <section class="mb-16">
+            <h2 class="font-display text-3xl font-bold mb-6 text-center">Sobre Nosotros</h2>
+            <p class="text-lg text-gray-700 text-center max-w-3xl mx-auto">
+                Bytel está dedicada a proporcionar soluciones innovadoras en tecnología de la información 
+                para ayudar a las empresas a prosperar en la era digital.
+            </p>
+        </section>
+        
+        <section class="mb-16">
+            <h2 class="font-display text-3xl font-bold mb-8 text-center">Nuestros Servicios</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full mb-4">
+                        <i data-lucide="code" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Desarrollo de Software</h3>
+                    <p class="text-gray-600">Soluciones personalizadas adaptadas a las necesidades específicas de tu negocio.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full mb-4">
+                        <i data-lucide="cloud" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Soluciones en la Nube</h3>
+                    <p class="text-gray-600">Migración y administración de infraestructura cloud para máxima eficiencia.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+                    <div class="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full mb-4">
+                        <i data-lucide="briefcase" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Consultoría TI</h3>
+                    <p class="text-gray-600">Asesoría estratégica para optimizar tu infraestructura tecnológica.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; <span id="year"></span> Bytel. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script>
+        lucide.createIcons();
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
