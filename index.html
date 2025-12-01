@@ -19,13 +19,25 @@
         .font-display {
             font-family: 'Montserrat', sans-serif;
         }
+        .bg-brand-green {
+            background-color: #88B200;
+        }
+        .text-brand-green {
+            color: #88B200;
+        }
+        .border-brand-green {
+            border-color: #88B200;
+        }
+        .hover\:bg-brand-green:hover {
+            background-color: #88B200;
+        }
     </style>
 </head>
 <body class="bg-white text-gray-900">
-    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+    <header class="bg-gradient-to-r from-gray-900 to-black text-white py-20">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h1 class="font-display text-5xl md:text-6xl font-bold mb-4">Bytel</h1>
-            <p class="text-xl md:text-2xl text-blue-100">Soluciones tecnológicas de vanguardia para tu empresa</p>
+            <p class="text-xl md:text-2xl text-gray-300">Soluciones tecnológicas de vanguardia para tu empresa</p>
         </div>
     </header>
     
@@ -41,24 +53,24 @@
         <section class="mb-16">
             <h2 class="font-display text-3xl font-bold mb-8 text-center">Nuestros Servicios</h2>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                    <div class="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full mb-4">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition border-t-4 border-brand-green">
+                    <div class="flex items-center justify-center w-12 h-12 bg-brand-green text-white rounded-full mb-4">
                         <i data-lucide="code" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-bold text-xl mb-3">Desarrollo de Software</h3>
                     <p class="text-gray-600">Soluciones personalizadas adaptadas a las necesidades específicas de tu negocio.</p>
                 </div>
                 
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                    <div class="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full mb-4">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition border-t-4 border-brand-green">
+                    <div class="flex items-center justify-center w-12 h-12 bg-brand-green text-white rounded-full mb-4">
                         <i data-lucide="cloud" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-bold text-xl mb-3">Soluciones en la Nube</h3>
                     <p class="text-gray-600">Migración y administración de infraestructura cloud para máxima eficiencia.</p>
                 </div>
                 
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                    <div class="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full mb-4">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition border-t-4 border-brand-green">
+                    <div class="flex items-center justify-center w-12 h-12 bg-brand-green text-white rounded-full mb-4">
                         <i data-lucide="briefcase" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-bold text-xl mb-3">Consultoría TI</h3>
