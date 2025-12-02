@@ -194,21 +194,6 @@
         .dark .partner-logos img {
             filter: drop-shadow(0 1px 2px rgba(255, 255, 255, 0.2));
         }
-
-        /* Timeline Connector for AFAC Methodology */
-        .step-connector {
-            position: absolute;
-            top: 2rem;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 2px;
-            height: 100%;
-            background-color: #E5E7EB;
-            z-index: 0;
-        }
-        .dark .step-connector {
-            background-color: #374151;
-        }
     </style>
 </head>
 
@@ -334,7 +319,7 @@
                     </div>
                     <div class="hidden md:block relative group">
                         <div class="absolute -top-10 -right-10 w-64 h-64 bg-brand-primary rounded-full blur-[80px] opacity-40 group-hover:opacity-60 transition duration-700"></div>
-                        <img src="./img/puntos-animados.svg" alt="Animación interactiva de 6 puntos de conexión que representa la infraestructura de red conectada de GlobalIncom" loading="lazy" class="w-80 h-80 opacity-95 hover:opacity-100 transition duration-700 transform hover:scale-105 filter drop-shadow-lg">
+                        <img src="./img/puntos-animados.svg" alt="Animación interactiva de 6 puntos de conexión que representa la infraestructura de red conectada de Bytel" loading="lazy" class="w-80 h-80 opacity-95 hover:opacity-100 transition duration-700 transform hover:scale-105 filter drop-shadow-lg">
                     </div>
                 </div>
             </section>
@@ -678,167 +663,6 @@
                             <div class="text-4xl font-bold text-brand-secondary mb-2">15%</div>
                             <p class="text-sm text-gray-600 dark:text-gray-300">Mejora en satisfacción de huéspedes</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="bg-gray-900 text-white py-20 relative overflow-hidden">
-                <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
-                <div class="max-w-7xl mx-auto px-4 relative z-10">
-                    <button onclick="navigateTo('home')" class="mb-6 text-sm text-gray-400 hover:text-white flex items-center gap-2 transition"><i data-lucide="arrow-left" class="w-4 h-4"></i> Volver al Inicio</button>
-                    <div class="inline-block bg-brand-primary px-3 py-1 rounded text-xs font-bold mb-4">Circular CO-SA-17.18/24</div>
-                    <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Normatividad Aeronáutica</h1>
-                    <p class="text-xl text-gray-300 max-w-3xl">
-                        Soluciones integrales para la evaluación y cumplimiento de requisitos de ciberseguridad en aviación civil según la normativa vigente.
-                    </p>
-                </div>
-            </div>
-
-            <div class="max-w-7xl mx-auto px-4 py-16 space-y-20">
-                <!-- Introduction & Objective -->
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h2 class="text-3xl font-bold text-black dark:text-white mb-6">Objetivos de la Ciberseguridad Aérea</h2>
-                        <p class="text-gray-600 dark:text-gray-300 mb-6 text-lg">
-                            El sector aéreo requiere verificar controles preventivos, de detección y respuesta ante actos de interferencia ilícita, garantizando la seguridad operacional.
-                        </p>
-                        <ul class="space-y-3">
-                            <li class="flex items-start gap-3">
-                                <i data-lucide="file-check" class="text-brand-primary w-5 h-5 mt-1"></i>
-                                <span class="text-gray-700 dark:text-gray-300">Cumplimiento de normativa oficial CO-SA-17.18/24.</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <i data-lucide="users" class="text-brand-primary w-5 h-5 mt-1"></i>
-                                <span class="text-gray-700 dark:text-gray-300">Aseguramiento de roles clave (CISO, Operadores).</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <i data-lucide="shield-check" class="text-brand-primary w-5 h-5 mt-1"></i>
-                                <span class="text-gray-700 dark:text-gray-300">Auditoría continua y seguimiento anual de controles.</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="bg-gray-50 dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700">
-                        <h3 class="font-bold text-lg mb-4 text-black dark:text-white">Alcance de la Regulación</h3>
-                        <div class="grid grid-cols-1 gap-4">
-                            <div class="flex items-center gap-3 p-3 bg-white dark:bg-gray-700 rounded shadow-sm">
-                                <i data-lucide="plane" class="text-gray-400"></i>
-                                <span class="text-sm font-medium dark:text-gray-200">Aerolíneas nacionales e internacionales</span>
-                            </div>
-                            <div class="flex items-center gap-3 p-3 bg-white dark:bg-gray-700 rounded shadow-sm">
-                                <i data-lucide="map-pin" class="text-gray-400"></i>
-                                <span class="text-sm font-medium dark:text-gray-200">Aeródromos civiles y aeropuertos</span>
-                            </div>
-                            <div class="flex items-center gap-3 p-3 bg-white dark:bg-gray-700 rounded shadow-sm">
-                                <i data-lucide="package" class="text-gray-400"></i>
-                                <span class="text-sm font-medium dark:text-gray-200">Empresas de logística, carga y aduanas</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Methodology Timeline (Generalizada) -->
-                <div>
-                    <h2 class="text-3xl font-bold text-center text-black dark:text-white mb-12">Fases de Evaluación Normativa</h2>
-                    <div class="relative">
-                        <!-- Connector Line -->
-                        <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-200 dark:bg-gray-700 -z-10 transform -translate-y-1/2"></div>
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
-                            <!-- Step 1 -->
-                            <div class="bg-white dark:bg-gray-800 p-4 rounded shadow text-center border-t-4 border-brand-primary relative">
-                                <div class="w-8 h-8 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold mx-auto mb-3">1</div>
-                                <h4 class="font-bold text-sm mb-2 dark:text-white">Diagnóstico Inicial</h4>
-                                <p class="text-xs text-gray-500 dark:text-gray-400">Revisión de brechas de cumplimiento.</p>
-                            </div>
-                            <!-- Step 2 -->
-                            <div class="bg-white dark:bg-gray-800 p-4 rounded shadow text-center border-t-4 border-brand-primary relative mt-8 md:mt-0">
-                                <div class="w-8 h-8 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold mx-auto mb-3">2</div>
-                                <h4 class="font-bold text-sm mb-2 dark:text-white">Análisis de Riesgos</h4>
-                                <p class="text-xs text-gray-500 dark:text-gray-400">Identificación de vulnerabilidades críticas.</p>
-                            </div>
-                            <!-- Step 3 -->
-                            <div class="bg-white dark:bg-gray-800 p-4 rounded shadow text-center border-t-4 border-brand-primary relative">
-                                <div class="w-8 h-8 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold mx-auto mb-3">3</div>
-                                <h4 class="font-bold text-sm mb-2 dark:text-white">Estrategia</h4>
-                                <p class="text-xs text-gray-500 dark:text-gray-400">Definición de roadmap de seguridad.</p>
-                            </div>
-                             <!-- Step 4 -->
-                             <div class="bg-white dark:bg-gray-800 p-4 rounded shadow text-center border-t-4 border-brand-primary relative mt-8 md:mt-0">
-                                <div class="w-8 h-8 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold mx-auto mb-3">4</div>
-                                <h4 class="font-bold text-sm mb-2 dark:text-white">Ejecución</h4>
-                                <p class="text-xs text-gray-500 dark:text-gray-400">Implementación de controles y pruebas.</p>
-                            </div>
-                             <!-- Step 5 -->
-                             <div class="bg-white dark:bg-gray-800 p-4 rounded shadow text-center border-t-4 border-brand-primary relative">
-                                <div class="w-8 h-8 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold mx-auto mb-3">5</div>
-                                <h4 class="font-bold text-sm mb-2 dark:text-white">Auditoría</h4>
-                                <p class="text-xs text-gray-500 dark:text-gray-400">Verificación documental y técnica.</p>
-                            </div>
-                             <!-- Step 6 -->
-                             <div class="bg-white dark:bg-gray-800 p-4 rounded shadow text-center border-t-4 border-brand-primary relative mt-8 md:mt-0">
-                                <div class="w-8 h-8 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold mx-auto mb-3">6</div>
-                                <h4 class="font-bold text-sm mb-2 dark:text-white">Conformidad</h4>
-                                <p class="text-xs text-gray-500 dark:text-gray-400">Aseguramiento del cumplimiento normativo.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Timelines (Generalizados) -->
-                <div class="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl">
-                    <h3 class="font-bold text-xl text-center mb-8 dark:text-white">Ciclos Típicos de Implementación</h3>
-                    <div class="grid md:grid-cols-3 gap-6 text-center">
-                        <div class="bg-white dark:bg-gray-700 p-6 rounded shadow border-b-4 border-gray-300">
-                            <span class="block text-2xl font-bold text-gray-400 mb-2">4 Meses</span>
-                            <span class="text-sm font-medium dark:text-gray-200">Entidades Pequeñas</span>
-                        </div>
-                        <div class="bg-white dark:bg-gray-700 p-6 rounded shadow border-b-4 border-brand-primary transform scale-105">
-                            <span class="block text-2xl font-bold text-brand-primary mb-2">7 Meses</span>
-                            <span class="text-sm font-bold dark:text-white">Entidades Medianas</span>
-                        </div>
-                        <div class="bg-white dark:bg-gray-700 p-6 rounded shadow border-b-4 border-black dark:border-gray-900">
-                            <span class="block text-2xl font-bold text-black dark:text-gray-300 mb-2">9 Meses</span>
-                            <span class="text-sm font-medium dark:text-gray-200">Entidades Grandes / Críticas</span>
-                        </div>
-                    </div>
-                </div>
-
-                 <!-- Experience (Enfoque en capacidad técnica, no en solicitud) -->
-                <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-sm border-l-4 border-brand-primary">
-                     <h3 class="text-2xl font-bold text-black dark:text-white mb-2">Experiencia en Sector Aeronáutico</h3>
-                     <p class="text-gray-500 dark:text-gray-400 mb-6 text-sm">Nuestra experiencia en el sector se sustenta en proyectos de misión crítica realizados para entidades clave, asegurando la continuidad operativa.</p>
-                     
-                     <div class="grid md:grid-cols-2 gap-8">
-                        <div>
-                            <div class="flex items-center gap-3 mb-3">
-                                <i data-lucide="plane-takeoff" class="text-brand-primary w-6 h-6"></i>
-                                <h4 class="font-bold text-lg dark:text-white">AICM (Aeropuerto CDMX)</h4>
-                            </div>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">
-                                Evaluación técnica de sistemas de monitoreo y detección en Terminales 1 y 2, generando dictámenes periciales integrales.
-                            </p>
-                        </div>
-                        <div>
-                            <div class="flex items-center gap-3 mb-3">
-                                <i data-lucide="shield" class="text-brand-primary w-6 h-6"></i>
-                                <h4 class="font-bold text-lg dark:text-white">Mexicana de Aviación</h4>
-                            </div>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">
-                                Diseño e instrumentación de infraestructura de seguridad y establecimiento de bases para SGSI.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Standards (Igual) -->
-                <div class="text-center">
-                    <h3 class="font-bold text-lg mb-6 dark:text-white text-gray-500">Normas y Estándares Aplicados</h3>
-                    <div class="flex flex-wrap justify-center gap-4">
-                        <span class="px-4 py-2 bg-white dark:bg-gray-700 border dark:border-gray-600 rounded text-sm font-bold text-gray-700 dark:text-gray-200">ISO/IEC 27001</span>
-                        <span class="px-4 py-2 bg-white dark:bg-gray-700 border dark:border-gray-600 rounded text-sm font-bold text-gray-700 dark:text-gray-200">NIST Cybersecurity Framework</span>
-                        <span class="px-4 py-2 bg-white dark:bg-gray-700 border dark:border-gray-600 rounded text-sm font-bold text-gray-700 dark:text-gray-200">IEC 62443 (OT/IoT)</span>
-                        <span class="px-4 py-2 bg-white dark:bg-gray-700 border dark:border-gray-600 rounded text-sm font-bold text-gray-700 dark:text-gray-200">OACI - Anexo 17</span>
-                        <span class="px-4 py-2 bg-white dark:bg-gray-700 border dark:border-gray-600 rounded text-sm font-bold text-gray-700 dark:text-gray-200">LFPDPPP</span>
                     </div>
                 </div>
             </div>
@@ -1236,8 +1060,8 @@
                 <div>
                     <h2 class="text-2xl font-bold text-black dark:text-white mb-4">¿Quiénes somos?</h2>
                     <p class="mb-4">
-                        <strong>Global Incom SA de CV</strong>, mejor conocido como <strong>Global Incom</strong>, con domicilio en:
-                        Callejón Hermenegildo Galeana Poniente 175, Altos Centro Los Mochis, Sinaloa C.P. 81200 y portal de internet: <a href="https://globalincom.com.mx" class="text-brand-primary underline">https://globalincom.com.mx</a>, es el responsable del uso y protección de sus datos personales y al respecto le informamos lo siguiente:
+                        <strong>Bytel Telecomunicaciones SA de CV</strong>, mejor conocido como <strong>Bytel</strong>, con domicilio en:
+                        México y portal de internet: <a href="https://bytel.com.mx" class="text-brand-primary underline">https://bytel.com.mx</a>, es el responsable del uso y protección de sus datos personales y al respecto le informamos lo siguiente:
                     </p>
                 </div>
 
@@ -1255,7 +1079,7 @@
                         En caso de que no desee que sus datos personales sean tratados para estos fines secundarios, desde este momento usted nos puede comunicar lo anterior a través del siguiente mecanismo:
                     </p>
                     <p class="bg-gray-100 dark:bg-gray-800 p-4 rounded border-l-4 border-brand-primary">
-                        Enviando un correo electrónico a la siguiente dirección: <strong><a href="mailto:contacto@globalincom.com.mx">contacto@globalincom.com.mx</a></strong>
+                        Enviando un correo electrónico a la siguiente dirección: <strong><a href="mailto:contacto@bytel.com.mx">contacto@bytel.com.mx</a></strong>
                     </p>
                     <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">
                         La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios y productos que solicita o contrata con nosotros.
