@@ -1,0 +1,12 @@
+# Registro de Cambios - Bytel
+
+## 2025-12-01
+
+### 20:44 - Inicialización del Repositorio
+- Configuración inicial del proyecto Bytel
+- Actualización de archivos de documentación y SEO
+- README.md actualizado con información de Bytel (servicios, branding, contacto)
+- robots.txt configurado para bytel.com.mx
+- sitemap.xml actualizado con estructura de secciones del sitio
+- Servicios principales: Infraestructura de Telecomunicaciones, Ciberseguridad, Normatividad Aeronáutica, Consultoría de TI
+- Branding: Color verde #88B200, dominio bytel.com.mx, email contacto@bytel.com.mx
