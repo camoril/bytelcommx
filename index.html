@@ -87,11 +87,11 @@
     <script>
         const brandColors = {
             darkDark: '#003333',
-            electricBlue: '#003333',
-            lime: '#C4E51D',
-            opticWhite: '#C0C0C0',
-            dataSilver: '#C0C0C0',
-            white: '#C0C0C0'
+            electricBlue: '#2C8C99',
+            lime: '#76B041',
+            opticWhite: '#E8F7EE',
+            dataSilver: '#C9D6EA',
+            white: '#E8F7EE'
         };
 
         tailwind.config = {
@@ -147,20 +147,20 @@
         
         .service-card:hover {
             transform: translateY(-5px);
-            border-color: #003333;
+            border-color: #2C8C99;
         }
         
         .service-card:hover .icon-box {
-            background-color: #003333;
+            background-color: #2C8C99;
             color: white;
         }
 
         .btn-primary {
-            background: linear-gradient(to right, #003333, #002222);
+            background: linear-gradient(to right, #2C8C99, #237178);
         }
         .btn-primary:hover {
-            background: linear-gradient(to right, #002222, #001111);
-            box-shadow: 0 10px 15px -3px rgba(0, 51, 51, 0.3);
+            background: linear-gradient(to right, #237178, #1A5962);
+            box-shadow: 0 10px 15px -3px rgba(44, 140, 153, 0.4);
         }
 
         .page-section {
@@ -225,9 +225,9 @@
                     <!-- LOGO BYTEL -->
                     <div class="w-10 h-10 flex items-center justify-center transform hover:scale-110 transition duration-300">
                         <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
-                            <rect x="15" y="35" width="70" height="30" rx="15" fill="#007BB6"/>
-                            <circle cx="50" cy="50" r="20" fill="#C4E51D"/>
-                            <path d="M42,50 L46,54 L58,42" stroke="#003333" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="15" y="35" width="70" height="30" rx="15" fill="#2C8C99"/>
+                            <circle cx="50" cy="50" r="20" fill="#76B041"/>
+                            <path d="M42,50 L46,54 L58,42" stroke="#E8F7EE" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
                     <span class="font-display font-bold text-2xl text-black dark:text-white tracking-tight dark:drop-shadow-[0_2px_4px_rgba(255,255,255,0.3)]">By<span class="text-brand-primary">tel</span></span>
@@ -386,7 +386,7 @@
             </section>
 
             <!-- Stats Section -->
-            <section class="bg-gradient-to-r from-brand-primary to-black py-16">
+            <section class="bg-gradient-to-r from-brand-primary via-[#237178] to-[#1A5962] py-16">
                 <div class="max-w-7xl mx-auto px-4">
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
                         <div class="transform hover:scale-110 transition-transform duration-300">
@@ -455,7 +455,7 @@
 
 
             <!-- Home Services - Mosaico Creativo -->
-            <section class="py-24 bg-gray-50 dark:bg-gray-900">
+            <section class="py-24 bg-[#E8F7EE] dark:bg-gray-900">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="max-w-3xl mb-16">
                         <div class="inline-block bg-brand-primary/10 text-brand-primary px-3 py-1 rounded-full text-xs font-bold mb-4">5 SOLUCIONES INTEGRADAS</div>
@@ -468,7 +468,7 @@
                     <!-- Bento Grid Layout -->
                     <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
                         <!-- Large: Digital Signage -->
-                        <div onclick="navigateTo('signage')" class="md:col-span-4 md:row-span-2 group cursor-pointer relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-primary to-black p-8 text-white transform hover:scale-[1.02] transition-all duration-300 shadow-xl hover:shadow-2xl">
+                        <div onclick="navigateTo('signage')" class="md:col-span-4 md:row-span-2 group cursor-pointer relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-primary to-[#1A5962] p-8 text-white transform hover:scale-[1.02] transition-all duration-300 shadow-xl hover:shadow-2xl">
                             <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl group-hover:bg-white/20 transition-all"></div>
                             <div class="relative z-10">
                                 <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition">
